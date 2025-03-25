@@ -1,7 +1,4 @@
 
-# Use this YAML in your workflow file for each job
-runs-on: ip-192-168-10-14
-
 name: Example Build Image
 
 on:
@@ -20,9 +17,10 @@ permissions:
   contents: read
 
 jobs:
+
   build:
     name: Build Image Production
-    runs-on: ubuntu-latest
+    runs-on: ip-192-168-10-14
     environment: Production
     steps:
     - name: Checkout
