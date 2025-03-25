@@ -8,9 +8,7 @@ on:
   push:
     branches:
       - "main"
-    paths:
-      - .github/workflows/build_deploy_prod.yaml
-      - "worker/**"
+   
 
 env:
   AWS_REGION: us-east-1                 
