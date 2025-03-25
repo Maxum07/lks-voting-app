@@ -1,7 +1,6 @@
 
-
 # Use this YAML in your workflow file for each job
-runs-on: self-hosted
+runs-on: ip-192-168-10-14
 
 name: Example Build Image
 
